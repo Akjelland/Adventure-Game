@@ -167,6 +167,7 @@ end_label.pack(pady=10)
 
 
 def ask_question(node_key):
+    end_label.config(text="")
     node = story[node_key]
 
 
