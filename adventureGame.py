@@ -40,9 +40,9 @@ story = {
         "information": {
         "question": "the stranger tells you about a dragon in a castle near here. What now?",
         "choices": {"a":"thank stranger","b":"leave"},
-        "next": {"a":"right_path","b":"leave_mean"}
+        "next": {"a":"thank_stranger","b":"leave_mean"}
     },
-        "thank stranger": {
+        "thank_stranger": {
         "question": "You thank the stranger and then peacefully leave. what now?",
         "choices": {"a":"go to mountain","b":"go to village"},
         "next": {"a":"mountain","b":"village"}
